@@ -506,12 +506,15 @@ section h3::after {
   .sosial-media h2 {
     margin-top: 40px;
   }
+  .sosial-media h2:hover {
+      color: rgb(0, 0, 0);
+  }
   .card-sosial-media a {
     margin: 30px 10px;
     display: inline-block;
     font-size: 39px;
     color: var(--light);
-  }
+}
   .fa-facebook:hover {
     color: rgb(22, 78, 231);
   }
@@ -534,10 +537,10 @@ section h3::after {
     width: 100%;
     margin: 8px 10px;
     outline: var(--primary-hover);
-    color: var(--light);
+    color: black;
     font-size: 15px;
   }
-  
+
   .btn-primary {
     background-color: var(--primary);
     color: var(--light);
@@ -633,22 +636,9 @@ element.style {
     --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
 }
 :host, :root {
-    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
-    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
     --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
     --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
     --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
-    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+   
 }
-element.style {
-    width: 12px;
-    z-index: auto;
-    background: rgb(29, 28, 32);
-    cursor: default;
-    position: fixed;
-    top: 0px;
-    height: 100%;
-    right: 0px;
-    display: block;
-    opacity: 0.4;
-}
+
