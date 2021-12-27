@@ -1,13 +1,22 @@
-@keyframes animate {
-    0%{
-        transform: rotateY(90deg);
-    }
-    10%,100% {
-        transform: rotateY(270deg);
-    }
-}
-@media (max-width:768px) {
-    .container2 .popup-video video {
-        width: 95%;
-    }
-}
+hljs.initHighlightingOnLoad();
+        
+                    $('.hero__scroll').on('click', function(e) {
+                        $('html, body').animate({
+                            scrollTop: $(window).height()
+                        }, 1200);
+                    });      
+                    AOS.init({
+                        easing: 'ease-out-back',
+                        duration: 1000
+                    });
+                    document.querySelectorAll('.video-container2 video').forEach(vid => {
+                        vid.onclik = () => {
+                            document.querySelector('.popup-video').style.display = 'block';
+                            document.querySelector('.popup-video video').src = vid.getAttribute('src');
+                        }
+                    });
+        
+                    document.querySelector('.popup-video span').onclick = () => {
+                           document.querySelector('.popup-video').style.display = 'none';
+                        }
+                   

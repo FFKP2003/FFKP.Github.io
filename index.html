@@ -186,25 +186,7 @@
                     <video src="My Portpolio/videoportfolio9.mp4" width="400" height="300" muted autoplay controls></video>
                 </div>
             </section>
-            <!-- bagian penutup section -->
-                                                                                          
-            <!-- bagian script -->
-        <script>
-            document.querySelectorAll('.video-container2 video').forEach(vid => {
-                vid.onclik = () => {
-                    document.querySelector('.popup-video').style.display = 'block';
-                    document.querySelector('.popup-video video').src = vid.getAttribute('src');
-                }
-            });
-
-            document.querySelector('.popup-video span').onclick = () => {
-                   document.querySelector('.popup-video').style.display = 'none';
-                }
-           
-        </script>
-             <!-- bagian penutup script -->
-  
-        <!-- bagian section -->
+            
         <section id="contact">
             <div class="container">
                 <hr>
@@ -236,7 +218,7 @@
 
                 </section>
 
-         <!-- bagian pentup section -->
+         <!-- bagian penutup section -->
 
          <!--  bagian foooter -->
                 <footer>
@@ -254,20 +236,7 @@
                   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
                   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
                   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                  <script>
-                    AOS.init({
-                        easing: 'ease-out-back',
-                        duration: 1000
-                    });
-                </script>
-                <script>
-                    hljs.initHighlightingOnLoad();
-        
-                    $('.hero__scroll').on('click', function(e) {
-                        $('html, body').animate({
-                            scrollTop: $(window).height()
-                        }, 1200);
-                    });
-                </script>          
+                  <script src="./js/script.js"></script>
+                  <script src="/js/script.js"></script>
   </body>     
 </html>
