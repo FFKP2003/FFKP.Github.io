@@ -68,6 +68,7 @@ nav .logo {
     height: 290px;
     overflow: hidden;
     border-radius: 50%;
+    transform: rotateX(-50%);
     
 }
 .rounded-img:hover  {
