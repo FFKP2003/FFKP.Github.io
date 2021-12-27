@@ -5,4 +5,5 @@ Maaf, website portofolio saya masih kurang bagus karena saya masih belajar.
 https://github.com/FFKP2003/FFKP.Github.io.git
 ## Library 
 -AOS
--jquaery
+
+-jquery
