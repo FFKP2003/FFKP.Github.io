@@ -2,7 +2,7 @@
 Maaf, website portofolio saya masih kurang bagus karena saya masih belajar.
 
 ## Demo
-http://127.0.0.1:5500/index.html
+ https://ffkp2003.github.io/FFKP.Github.io/
 ## Library 
 -AOS
 
