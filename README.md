@@ -8,4 +8,3 @@ Maaf, website portofolio saya masih kurang bagus karena saya masih belajar.
 
 -jquery
 
--carousel/slideshow
