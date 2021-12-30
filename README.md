@@ -7,3 +7,5 @@ Maaf, website portofolio saya masih kurang bagus karena saya masih belajar.
 -AOS
 
 -jquery
+
+-carousel/slideshow
