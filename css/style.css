@@ -280,13 +280,12 @@ section h3::after {
 }
 .col-2 img {
     width: 100%;
-    margin: 43%;
+    margin: 50%;
     margin-top: 50px;
     border-radius: 20px;
 }
 .col-2 span {
     float: left;
-    left: 50%;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
@@ -324,7 +323,6 @@ section h3::after {
 }
 .col-3 span {
     float: left;
-    left: 50%;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
