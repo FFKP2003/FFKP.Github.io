@@ -249,6 +249,7 @@ section h3::after {
 }
 .col-1 span {
     float: left;
+    left: 80px;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
@@ -352,7 +353,7 @@ section h3::after {
    perspective: 1000px;
    margin-left: 150px;
    margin-top: 650px;
-   margin-left: 43%;
+   margin-left: 40%;
 }
 .slideshow .slide {
     position: absolute;
