@@ -249,7 +249,6 @@ section h3::after {
 }
 .col-1 span {
     float: left;
-    left: 50%;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
