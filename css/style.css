@@ -249,7 +249,7 @@ section h3::after {
 }
 .col-1 span {
     float: left;
-    left: 300px;
+    left: 50%;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
@@ -287,7 +287,7 @@ section h3::after {
 }
 .col-2 span {
     float: left;
-    left: 300px;
+    left: 50%;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
@@ -325,7 +325,7 @@ section h3::after {
 }
 .col-3 span {
     float: left;
-    left: 400px;
+    left: 50%;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
@@ -489,7 +489,7 @@ section h3::after {
   }
 }
 .popup-video span {
-    margin: 100PX;
+    margin: 50%;
 }
 
 .contact-us {
