@@ -319,13 +319,13 @@ section h3::after {
 }
 .col-3 img {
     width: 100%;
-    margin-left: 320px;
+    margin-left: 450px;
     margin-top: 50px;
     border-radius: 20px;
 }
 .col-3 span {
     float: left;
-    left: 450px;
+    left: 500px;
     margin-top: 60px;
     position: relative;
     background: rgb(0, 0, 0);
